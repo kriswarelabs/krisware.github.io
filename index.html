@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISWARE — Official Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+
+    <nav class="glass-nav">
+        <div class="nav-brand">KRISWARE</div>
+        <div class="nav-links">
+            <button class="nav-btn active" onclick="switchPage('projects')">Projects</button>
+            <button class="nav-btn" onclick="switchPage('about')">About</button>
+            <button class="nav-btn" onclick="switchPage('links')">Links</button>
+        </div>
+    </nav>
+
+    <main class="content-container">
+
+        <!-- PROJECTS PAGE -->
+        <section id="page-projects" class="page-section active">
+            <div class="glass-card hero-card">
+                <h1>Projects</h1>
+                <p>Interactive web apps, software, and tools built by Krisware.</p>
+            </div>
+
+            <div class="card-grid">
+                <a href="./music-player/" class="glass-card project-card">
+                    <div class="card-badge">WEB APP</div>
+                    <h3>Super Blox Bros Music Player</h3>
+                    <p>Smash Bros. Ultimate-inspired soundtrack player with custom themes and play-all features.</p>
+                    <span class="card-link">Launch App &rarr;</span>
+                </a>
+
+                <div class="glass-card project-card">
+                    <div class="card-badge">IN DEVELOPMENT</div>
+                    <h3>Project Two</h3>
+                    <p>A new tool currently being built under the Krisware umbrella.</p>
+                    <span class="card-link">Coming Soon &rarr;</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="page-about" class="page-section">
+            <div class="glass-card">
+                <h2>About Krisware</h2>
+                <p class="about-text">
+                    Krisware is a independent project brand dedicated to building unique web applications, game audio tools, and interactive media software.
+                </p>
+                <div class="stats-row">
+                    <div class="stat-box">
+                        <h4>Focus</h4>
+                        <p>Web Development & Design</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>Arranger / Lead</h4>
+                        <p>Kris Wright</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LINKS PAGE -->
+        <section id="page-links" class="page-section">
+            <div class="glass-card">
+                <h2>External Links</h2>
+                <div class="links-list">
+                    <a href="https://github.com/krisware" target="_blank" class="glass-link-btn">
+                        <span>GitHub Profile</span>
+                        <span>&nearr;</span>
+                    </a>
+                    <a href="https://kritical-kris.github.io/kriswaremusic/" target="_blank" class="glass-link-btn">
+                        <span>Roblox Group</span>
+                        <span>&nearr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
